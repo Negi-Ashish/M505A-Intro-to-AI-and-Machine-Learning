@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; nb=json.load\\(sys.stdin\\); [print\\(i, repr\\(c['source'][:80]\\)\\) for i,c in enumerate\\(nb['cells']\\) if c['cell_type']=='code']\")",
+      "Bash(python3)"
+    ]
+  }
+}
